@@ -4,7 +4,9 @@ import { FaSearch } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 
 const FormStyled = styled.form`
-	margin: 0rem 20rem;
+	margin-left: 20rem;
+	margin-right: 20rem;
+	margin-top: 5rem;
 
 	div {
 		width: 100%;
@@ -25,7 +27,7 @@ const FormStyled = styled.form`
 
 	svg {
 		position: absolute;
-		top: 50%;
+		top: 25%;
 		left: 0%;
 		transform: translate(100%, 50%);
 		color: white;
